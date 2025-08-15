@@ -1,5 +1,6 @@
 Short description of commit 
-updated dependencies to include lucide and tailwind. Also created the main.jsx file and updated index.css to reflect tailwind import.
+Started a  basic strcuture of the hero for the main page. Also added files to start basic structure of the repository and necessary pages+components.
 
 Longer explanation of the motivation for the change
-needed to install necessary dependencies and start coding the main pages. Other files with structure will be included in the next commit.
+Home page will need to have 3 components: Hero with get started CTA, Trending shows, and trending playlists. Shows will fetch from api for popular shows Playlsits will just be display for now, but would link to playlsits craeted and saved by users.
+Other pages include shows and playlists; another component will likely be made fo the registration modal. This is basic structure and development thus far to guide us on the right path. 
