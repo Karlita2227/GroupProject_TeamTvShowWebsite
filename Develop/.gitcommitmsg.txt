@@ -1,12 +1,5 @@
 Short description of commit 
-
-[insert new line] - 
+Deleted the frontend folder and created a new one using vite and react template, with tailwind dep installed too.
 
 Longer explanation of the motivation for the change
-
-[insert new line] -
-
-Fixes-Bug: Enter bug-id or delete line 
-
-Implements-Requirement: Enter requirement-id or delete line
-
+The original frontend folder was only using vite, did not have tailwind, and didnt have much use to us based on the dependencies. I created a new one for ease and to start on the hero page.
