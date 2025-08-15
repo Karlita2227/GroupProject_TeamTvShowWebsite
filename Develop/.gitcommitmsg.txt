@@ -1,5 +1,5 @@
 Short description of commit 
-Deleted the frontend folder and created a new one using vite and react template, with tailwind dep installed too.
+updated dependencies to include lucide and tailwind. Also created the main.jsx file and updated index.css to reflect tailwind import.
 
 Longer explanation of the motivation for the change
-The original frontend folder was only using vite, did not have tailwind, and didnt have much use to us based on the dependencies. I created a new one for ease and to start on the hero page.
+needed to install necessary dependencies and start coding the main pages. Other files with structure will be included in the next commit.
