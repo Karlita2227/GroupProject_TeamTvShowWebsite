@@ -1,6 +1,6 @@
 Short description of commit 
-Started a  basic strcuture of the hero for the main page. Also added files to start basic structure of the repository and necessary pages+components.
+Created Nav BAr with gebneric styling. will personally go in to correct styling once hero page and othe components are created.
 
 Longer explanation of the motivation for the change
-Home page will need to have 3 components: Hero with get started CTA, Trending shows, and trending playlists. Shows will fetch from api for popular shows Playlsits will just be display for now, but would link to playlsits craeted and saved by users.
-Other pages include shows and playlists; another component will likely be made fo the registration modal. This is basic structure and development thus far to guide us on the right path. 
+Nav bar will use react router dom in order to have routes to each page, including the modal that will rpoject over any page for registration.
+Nav is not interawctable now, and needs to have master styling incorporated. See index.css for more styling.
