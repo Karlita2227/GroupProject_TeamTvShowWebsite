@@ -1,6 +1,5 @@
-Short description of commit 
-Created Nav BAr with gebneric styling. will personally go in to correct styling once hero page and othe components are created.
+Styled Nav Bar, all styling and basic coding is complete. Need to add routes, search bar functionality, change sizing.
 
-Longer explanation of the motivation for the change
-Nav bar will use react router dom in order to have routes to each page, including the modal that will rpoject over any page for registration.
-Nav is not interawctable now, and needs to have master styling incorporated. See index.css for more styling.
+
+Nav bar will use react router dom in order to have routes to each page, including the modal that will project over any page for registration.
+Nav is not interactable at this time, once all other pages are created, then we will use react router in order to link them in.

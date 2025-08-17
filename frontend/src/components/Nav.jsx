@@ -16,43 +16,41 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-sky-500 bg-opacity- text-white shadow-lg">
+    <nav className="bg-primary text-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="flex-shrink-0 flex items-center">
-              <div className="w-8 h-8 bg-orange-500 rounded flex items-center justify-center mr-2">
-                <span className="text-white font-bold text-sm">📺</span>
-              </div>
-              <span className="font-bold text-xl">Sceneit</span>
+            <div className="flex-shrink-0 flex items-center space-x-1">
+              <img src='/sceneit.png' width={35}></img>
+              <span className="font-medium text-3xl">SceneIt</span>
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-8">
-              <a 
-                href="#" 
-                className="hover:text-orange-400 transition-colors duration-200 font-medium"
+            <div className="ml-10 flex items-baseline space-x-10">
+              <a
+                href="#"
+                className="hover:text-secondary transition-colors duration-200 font-normal"
               >
                 Log In
               </a>
-              <a 
-                href="#" 
-                className="hover:text-orange-400 transition-colors duration-200 font-medium"
+              <a
+                href="#"
+                className="hover:text-secondary transition-colors duration-200 font-normal"
               >
                 Create an Account
               </a>
-              <a 
-                href="#" 
-                className="hover:text-orange-400 transition-colors duration-200 font-medium"
+              <a
+                href="#"
+                className="hover:text-secondary transition-colors duration-200 font-normal"
               >
                 Shows
               </a>
-              <a 
-                href="#" 
-                className="hover:text-orange-400 transition-colors duration-200 font-medium"
+              <a
+                href="#"
+                className="hover:text-secondary transition-colors duration-200 font-normal"
               >
                 Playlists
               </a>
@@ -68,9 +66,9 @@ const Nav = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSearchSubmit(e)}
                 placeholder="Search"
-                className="bg-slate-700 text-white placeholder-gray-300 rounded-full px-4 py-2 pl-10 w-64 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:bg-slate-600 transition-all duration-200"
+                className="bg-primary border text-white placeholder-gray-300 rounded-full px-4 py-2 pl-10 w-64 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-transparent transition-all duration-200"
               />
-              <Search 
+              <Search
                 className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-300 w-4 h-4"
               />
             </div>
@@ -101,7 +99,7 @@ const Nav = () => {
                 placeholder="Search"
                 className="bg-slate-600 text-white placeholder-gray-300 rounded-full px-4 py-2 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-orange-400 transition-all duration-200"
               />
-              <Search 
+              <Search
                 className="absolute left-6 top-1/2 transform -translate-y-1/2 text-gray-300 w-4 h-4"
               />
             </div>
