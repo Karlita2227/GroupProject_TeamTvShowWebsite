@@ -1,5 +1,4 @@
-Styled Nav Bar, all styling and basic coding is complete. Need to add routes, search bar functionality, change sizing.
+Tailwind colors set for theme.
 
 
-Nav bar will use react router dom in order to have routes to each page, including the modal that will project over any page for registration.
-Nav is not interactable at this time, once all other pages are created, then we will use react router in order to link them in.
+Primary (blue), secondary (orange), accent (light blue) and 2nd accent (yellow) have been added. Moved from index.css to tailwind config for correct use.
