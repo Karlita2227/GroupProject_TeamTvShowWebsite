@@ -1,4 +1,8 @@
-Tailwind colors set for theme.
+Hero.jsx styling complete. Home.jsx routing changed. main.jsx to include home and nav with proper imports.
 
 
-Primary (blue), secondary (orange), accent (light blue) and 2nd accent (yellow) have been added. Moved from index.css to tailwind config for correct use.
+Need to establish routes and fetch requests, but the base strcuture is created for the hero.
+Get started button should route to register modal.
+each show will have the poster rednered, in addition to amount of seasons and episodes on hover.
+hero will be its own component aside from tredning shows and aplylsits, because those components can be recycled for other pages.
+Home.jsx will slowly lose comments as the new components are created and rendered.
